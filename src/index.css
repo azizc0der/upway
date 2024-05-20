@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg.star-svg {
+    display: inline;
+    vertical-align: -2px;
+}
+
+
+::-webkit-scrollbar {
+    width: 0;
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #dadada;
+}
+
+::-moz-scrollbar {
+    width: 0;
+    background-color: #ffffff;
+}
+
+::-moz-scrollbar-track {
+    border-radius: 0;
+    background-color: #ffffff;
+}
+
+::-moz-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #dadada;
+}
